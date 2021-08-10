@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewfort" content="width=414, user-scalable=no, target-density-dpi=device-dpi">
+    <title>portfolio</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+  <header>
+    <nav>
+      <div class="logo"><a href="index.html"><img src="img/logo.png" alt="로고"></a></div>
+        <div class="menu">
+          <input type="checkbox" id="menuicon">
+          <label for="menuicon">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+
+          <div class="sidebar">
+              <div class="menu_item">
+                <ul>
+                  <li><a href="sub_01.html">UI/UX</a></li>
+                  <li><a href="sub_02.html">EDITORIAL</a></li>
+                  <li><a href="sub_03.html">CAPSTONE</a></li>
+                  <li><a href="sub_04.html">PACKAGE</a></li>
+                </ul>
+              </div>
+          </div>
+      </div>
+    </nav>
+  </header>
+
+  <section>
+    <!--슬라이드 부문-->
+    <div class="slidebox">
+    	<input type="radio" name="slide" id="slide01" checked>
+    	<input type="radio" name="slide" id="slide02">
+    	<input type="radio" name="slide" id="slide03">
+    	<input type="radio" name="slide" id="slide04">
+    	<ul class="slidelist">
+    		<li class="slideitem">
+    			<div>
+    				<label for="slide04" class="left"></label>
+    				<label for="slide02" class="right"></label>
+    				<a href="sub_01.html"><img src="img/slideimg01.png"></a>
+    			</div>
+    		</li>
+    		<li class="slideitem">
+    			<div>
+    				<label for="slide01" class="left"></label>
+    				<label for="slide03" class="right"></label>
+    				<a href="sub_02.html"><img src="img/slideimg02.png"></a>
+    			</div>
+    		</li>
+    		<li class="slideitem">
+    			<div>
+    				<label for="slide02" class="left"></label>
+    				<label for="slide04" class="right"></label>
+    				<a href="sub_03.html"><img src="img/slideimg03.png"></a>
+    			</div>
+    		</li>
+    		<li class="slideitem">
+    			<div>
+    				<label for="slide03" class="left"></label>
+    				<label for="slide01" class="right"></label>
+    				<a href="sub_04.html"><img src="img/slideimg04.png"></a>
+    			</div>
+    		</li>
+        </ul>
+    </div>
+
+    <!--프로필 부문-->
+    <div class="profile">
+      <div class="profile_wrap">
+        <div class="profile_01" data-aos="fade-down" data-aos-duration="1500"><img src="img/pf_01_txt.png" alt="이름/연락처"></div>
+        <div class="profile_02" data-aos="fade-down" data-aos-duration="1500"><img src="img/pf_02_txt.png" alt="Education"></div>
+        <div class="profile_03" data-aos="fade-down" data-aos-duration="1500"><img src="img/pf_03_txt.png" alt="skill"></div>
+      </div>
+    </div>
+  </section>
+
+    <!--푸터 부문-->
+    <footer>
+      <div class="footer_wrap">
+        <span class="footer_logo"><img src="img/footer_logo.png" alt="footer"></span>
+        <span class="footer_txt">Copyright 2021 Sesuhyun Yoo. All right reserved.<br>E-mail : tmdgus6401@naver.com</span>
+      </div>
+    </footer>
+
+    <!--AOS 스크립트-->
+    <script type="text/javascript" src="js/aos.js"></script>
+    <script>
+      AOS.init({
+        easing: 'ease-in-out-sine'
+      });
+    </script>
+
+
+  </body>
+</html>
